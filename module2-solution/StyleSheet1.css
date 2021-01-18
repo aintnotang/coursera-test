@@ -1,3 +1,67 @@
-﻿body
-{
+﻿* {
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    padding: 15px;
+    padding-top: 50px;
+    margin: 15px;
+    background-color: #bdd1d9;
+    border: 3px solid black;
+
+}
+
+h1 {
+    text-align: center;
+    color: #36454f;
+}
+
+h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px;
+    margin: 0;
+    border: 3px solid black;
+    border-top-style: none;
+    border-right-style: none;
+}
+
+    h2.v {
+        background-color: #e776ff
+    }
+
+    h2.p {
+        background-color: #ba6cff
+    }
+
+    h2.b {
+        background-color: #729aff
+    }
+
+/*****Desktop*****/
+@media (min-width : 992px) {
+    section {
+        float: left;
+        width: 30%;
+    }
+}
+/*****Tablet*****/
+@media (min-width : 768px) and (max-width: 991px) {
+    .s1{
+        float:left;
+        width:40.5%;
+    }
+    .s2{
+        float:left;
+        width:84.3%;
+    }
+
+}
+/*****Moblie*****/
+@media (max-width : 767px) {
+    section {
+        width: 84.3%;
+    }
 }

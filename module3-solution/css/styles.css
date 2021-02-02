@@ -2,22 +2,39 @@
     text-align: center;
     font-size: 15px !important;
 }
-.navbar-default {
-    background-color: #717e7e !important;
+#nav-bar {
+    background-color: #717e7e;
 }
-.navbar-brand {
-    color: white !important;
+#dropdown-nav{
+    margin-top: 25px;
 }
-.navbar-default .navbar-nav > li > a {
-    color: white !important;
-}
-.box1{
-    height:1000px;
-    background-color:azure;
-    border: 1px solid grey;
-    margin: 15px;
-}
-.navbar-toggle-1{
+#dropdown-nav a{
+    color:white;
     text-align: center;
+    font-size:1.4em;
+}
+#dropdown-nav a:hover{
+    color: black;
+}
+#logo {
+    color: white ;
     font-size:1.8em;
+    margin-bottom:10px;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+}
+.box1 {
+    height: 1000px;
+    width:100%;
+    background-color: azure;
+    border: 1px solid grey;
+    margin-right:auto;
+    margin-left: auto;
+    margin-top:10px;
+}
+@media (min-width: 768px) {
+    .hidden-sm-up {
+        display: none !important;
+    }
 }

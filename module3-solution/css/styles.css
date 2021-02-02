@@ -1,0 +1,29 @@
+﻿body{
+    text-align: center;
+    font-size: 15px !important;
+}
+.navbar-default {
+    background-color: #717e7e !important;
+}
+.navbar-brand {
+    color: white !important;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white !important;
+}
+.box1{
+    height:1000px;
+    background-color:azure;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+}
+.row div {
+    height: 700px;
+    background-color: azure;
+    border: 1px solid grey;
+    margin: 5px;
+}
+.navbar-toggle-1{
+    text-align: center;
+    font-size:1.8em;
+}
